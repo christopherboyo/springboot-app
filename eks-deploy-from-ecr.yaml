@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-springboot-app
-        image: 440833543191.dkr.ecr.us-east-1.amazonaws.com/kube/my-kube-repoc
+        image: 440833543191.dkr.ecr.us-east-1.amazonaws.com/devops/my-springboot-repoc
         imagePullPolicy: Always
         ports:
         - containerPort: 8085
